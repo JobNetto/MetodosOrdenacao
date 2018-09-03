@@ -46,7 +46,7 @@ namespace Trabalho
         private void btnImportar_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
-            string caminho = caminho = openFileDialog1.FileName;
+            string caminho =  openFileDialog1.FileName;
             openFileDialog1.Dispose();
 
             ListaInteiros = new List<int>();
